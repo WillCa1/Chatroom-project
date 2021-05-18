@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AnoPhonia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/AnoPhobia_icon.png" sizes="32x32">
+</head>
+<body>
+  <div>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here and press enter..."/>
+    </li>
+    <li class="login page">
+      <div id="traveler">
+<div id="bouncer"><!-- --></div>
+</div>
+      <div class="form">
+        <h3 class="title">Preferred Nickname:</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+</div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
